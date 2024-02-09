@@ -1,0 +1,106 @@
+#a{
+    background-image: url(.//images/1.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#b{
+    background-image: url(.//images/2.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#c{
+    background-image: url(.//images/3.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#d{
+    background-image: url(.//images/4.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#e{
+    background-image: url(.//images/5.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#f{
+    background-image: url(.//images/6.jpg);
+    width: 250px;
+    height: 200px;
+    background-size:cover ;
+    border-radius: 50%;
+    box-shadow: gray 10px 10px 50px 15px;
+    padding: 0%;
+    transition: padding 1s;
+}
+#block1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4%;
+}
+#block2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#empty{
+    padding: 50px;
+}
+#a:hover,#b:hover,#c:hover,#d:hover,#e:hover,#f:hover{
+    padding: 1%;
+    cursor:pointer;
+}
+.title{
+
+    text-align: center;
+    padding-bottom: 4%;
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 35px;
+    animation: titleanim 7s infinite;
+}
+#container{
+    background-image: url(.//images/bg.jpg);
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+@keyframes titleanim{
+    0%{
+        color: rgba(255, 255, 255, 0.39);
+        font-size: 35px;
+    }
+    50%{
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 45px;
+    }
+    100%{
+        color: rgba(255, 255, 255, 0.39);
+        font-size: 35px;
+    }
+}
